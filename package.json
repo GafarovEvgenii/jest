@@ -10,9 +10,11 @@
       "!**/coverage/**"
     ],
     "coverageThreshold": {
-      "branches": 100,
-      "functions": 100,
-      "lines": 100
+      "global": {
+       "branches": 100,
+       "functions": 100,
+       "lines": 100
+      }
     }
   },
   "version": "1.0.0",
@@ -25,6 +27,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^28.1.0"
+    "jest": "^28.1.1"
   }
 }
